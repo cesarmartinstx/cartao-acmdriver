@@ -2,55 +2,115 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>ACM Driver | Mobilidade com Confiança</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACM DRIVER | Mobilidade com Confiança</title>
 
   <style>
-
-      .brand {
-  text-align: center;
-  width: 100%;
-}
-
-.brand h1 {
-  margin: 0;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-}
-
-.brand p {
-  margin: 6px 0 0 0;
-  font-size: 0.9rem;
-  opacity: 0.85;
-}
-    
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #bfbfbf; /* cinza intermediário */
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
     .card {
-  background-color: #ffffff;
-  width: 90%;
-  max-width: 380px;
-  border-radius: 16px;
-  padding: 20px;
-  box-sizing: border-box;
-    }
-    h1 {
-      margin-bottom: 10px;
-      font-size: 26px;
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 16px;
+      padding: 24px 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      text-align: center;
     }
 
-    p {
+    .logo {
+      max-width: 140px;
+      margin-bottom: 12px;
+    }
+
+    .titulo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #000;
       margin: 0;
+    }
+
+    .slogan {
+      font-size: 14px;
+      color: #555;
+      margin: 6px 0 22px 0;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      background-color: #000;
+      color: #fff;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 10px;
       font-size: 16px;
       font-weight: bold;
+      transition: opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    .rodape {
+      margin-top: 24px;
+      font-size: 13px;
+      color: #444;
+      line-height: 1.5;
     }
   </style>
 </head>
 
 <body>
-  <div class="brand">
-  <h1>ACM DRIVER</h1>
-  <p>Mobilidade com confiança</p>
+
+  <div class="card">
+
+    <!-- LOGO -->
+    <img src="logo.png" alt="ACM Driver" class="logo">
+
+    <!-- TÍTULO -->
+    <h1 class="titulo">ACM DRIVER</h1>
+    <p class="slogan">Mobilidade com confiança</p>
+
+    <!-- BOTÕES -->
+    <a class="btn" href="https://wa.me/5581986139277?text=Olá!%20Gostaria%20de%20agendar%20uma%20corrida.%20Poderia%20me%20orientar%3F">
+      Agendar corrida
+    </a>
+
+    <a class="btn" href="https://wa.me/5581986139277">
+      Falar no WhatsApp
+    </a>
+
+    <a class="btn" href="tel:+5581986139277">
+      Ligar agora
+    </a>
+
+    <a class="btn" href="https://00020101021126810014BR.GOV.BCB.PIX2559pix-qr.mercadopago.com/instore/ol/v2/3Z92vlIu5km6yHB6SeaP915204000053039865802BR5925ANTONIO">
+      Pagamento via Pix
+    </a>
+
+    <a class="btn" href="https://instagram.com">
+      Instagram
+    </a>
+
+    <!-- RODAPÉ -->
+    <div class="rodape">
+      ACM DRIVER — Serviço de Transporte Premium<br>
+      Antônio César — Motorista credenciado<br>
+      CTTU • TP 5934
+    </div>
+
   </div>
+
 </body>
 </html>
